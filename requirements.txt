@@ -1,0 +1,11 @@
+# Python 3.11 or 3.12 recommended.
+# Core versions used to execute the AQI Random Forest notebook.
+numpy
+pandas==2.3.3
+matplotlib
+scikit-learn
+joblib
+
+
+# Notebook kernel for VS Code / Jupyter.
+ipykernel>=6.29,<8

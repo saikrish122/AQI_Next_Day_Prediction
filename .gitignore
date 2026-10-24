@@ -1,0 +1,31 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary checkpoints (keep the actual notebooks)
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated notebook outputs and trained models
+outputs/
+*.joblib
+*.pkl
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dataset: provide separately and verify reuse terms before publishing.
+aqi.csv
+data/aqi.csv
